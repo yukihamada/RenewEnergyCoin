@@ -3,19 +3,19 @@
 # ノードの起動
 start_node() {
     echo "Starting node..."
-    # ノード起動コマンドをここに追加
-}
+    docker-compose up -d
+
 
 # ノードの停止
 stop_node() {
     echo "Stopping node..."
-    # ノード停止コマンドをここに追加
+    docker-compose down
 }
 
 # ノードのステータス確認
 status_node() {
     echo "Checking node status..."
-    # ノードステータス確認コマンドをここに追加
+    docker-compose ps
 }
 
 case "$1" in

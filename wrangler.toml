@@ -1,0 +1,11 @@
+compatibility_date = "2024-06-06"
+
+name = "renewenergycoin"
+type = "javascript"
+account_id = "46bf2542468db352a9741f14b84d2744"
+workers_dev = true
+
+[env.production]
+name = "renewenergycoin-production"
+account_id = "46bf2542468db352a9741f14b84d2744"
+
