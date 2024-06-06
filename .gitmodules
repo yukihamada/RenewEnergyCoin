@@ -1,0 +1,14 @@
+
+[submodule "BJJ_Connect"]
+    path = BJJ_Connect
+    url = https://github.com/yukihamada/BJJ_Connect.git
+[submodule "RenewEnergyCoin"]
+    path = RenewEnergyCoin
+    url = https://github.com/yukihamada/RenewEnergyCoin.git
+[submodule "enabler-backend"]
+    path = enabler-backend
+    url = https://github.com/yukihamada/enabler-backend.git
+[submodule "enabler-frontend"]
+    path = enabler-frontend
+    url = https://github.com/yukihamada/enabler-frontend.git
+
